@@ -29,6 +29,8 @@ import Project5 from "./assets/img/projects/project5.png";
 import Project6 from "./assets/img/projects/project6.png";
 import Project7 from "./assets/img/projects/project7.png";
 import project8 from "./assets/img/projects/project8.png";
+import project9 from "./assets/img/projects/project9.png";
+import project10 from "./assets/img/projects/project10.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -107,7 +109,7 @@ export const brands = [
 
 // projects
 export const projectsData = [
-  {
+   {
     id: "7",
     image: Project7,
     name: "Amazon-clone",
@@ -132,44 +134,20 @@ export const projectsData = [
     site: "https://julian-admin-dashboard.netlify.app",
   },
   {
-    id: "6",
-    image: Project5,
-    name: "Gym-Home page",
-    category: "Web Development",
-    gitHub: "https://github.com/julianre123/Gym-responsive-website",
-    site: "https://julian-gym-website-responsive.netlify.app",
-  },
-  {
     id: "1",
-    image: Project1,
-    name: "Notes App",
-    category: "web Development",
-    gitHub: "https://github.com/julianre123/Notes-app",
-    site: "https://julian-notes-app.netlify.app/",
+    image: project9,
+    name: "Everest Gym App",
+    category: "Web Development",
+    gitHub: "https://github.com/julianre123/gym__app__julian",
+    site: "https://everestgymapp.netlify.app/",
   },
   {
     id: "2",
-    image: Project2,
-    name: "Weather App",
-    category: "web development",
-    gitHub: "https://github.com/julianre123/Weather-app",
-    site: "https://julian-weather-app.netlify.app/",
-  },
-  {
-    id: "3",
-    image: Project3,
-    name: "Github Profile",
-    category: "Web Developer",
-    gitHub: "https://github.com/julianre123/Github-Profiles",
-    site: "https://julian-github-profiles.netlify.app/",
-  },
-  {
-    id: "4",
-    image: Project4,
-    name: "Password Generator",
+    image: project10,
+    name: "HyperErgo E-commerce",
     category: "Web Development",
-    gitHub: "https://github.com/julianre123/Password-generator",
-    site: "https://julian-password-generator.netlify.app/",
+    gitHub: "https://github.com/julianre123/hyperergo",
+    site: "https://julian-ecommerce.netlify.app/",
   },
 ];
 
